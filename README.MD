@@ -1,0 +1,4 @@
+#revise
+[Phar]
+; http://php.net/phar.readonly
+phar.readonly = Off
