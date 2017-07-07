@@ -8,4 +8,4 @@ $phar = new Phar('user.phar', 0, 'user.phar');
     $phar->setStub($phar->createDefaultStub('test.php', 'test.php'));  
     // 压缩格式  
     $phar->compressFiles(Phar::GZ);  
-// test123456dddd uuuuuuuu
+//phar-demo
