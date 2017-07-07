@@ -9,4 +9,5 @@ $phar = new Phar('user.phar', 0, 'user.phar');
     // 压缩格式  
     $phar->compressFiles(Phar::GZ);  
 //test ......
-//test 123456
+//test 123aaa
+//test 222
