@@ -2,9 +2,10 @@
 
 
 $phar = new Phar('user.phar', 0, 'user.phar');  
-    // ½¨Á¢Ñ¹ËõÄ¿Â¼  
+    // å»ºç«‹åŽ‹ç¼©ç›®å½•  
     $phar->buildFromDirectory(dirname(__FILE__) . '/user');  
-    // Ñ¹ËõphpÎÄ¼þµÄÈë¿ÚÎÄ¼þ  
+    // åŽ‹ç¼©phpæ–‡ä»¶çš„å…¥å£æ–‡ä»¶  
     $phar->setStub($phar->createDefaultStub('test.php', 'test.php'));  
-    // Ñ¹Ëõ¸ñÊ½  
+    // åŽ‹ç¼©æ ¼å¼  
     $phar->compressFiles(Phar::GZ);  
+//test ......
